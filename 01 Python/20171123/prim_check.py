@@ -5,8 +5,8 @@ def primzahl(n):
         if n % k == 0:
             prim = False
         k +=1
-    help +=1
-    if n == help:
+    hlp +=1
+    if n == hlp:
         primzahl = True
     return primzahl
 #input
