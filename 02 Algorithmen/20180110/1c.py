@@ -1,0 +1,28 @@
+from turtle import *
+from random import *
+reset()
+def HVN():
+    n = randint(10,100)
+    pendown()
+    pensize(randint(1,10))
+    pencolor(randint(0.0,1.0),randint(0.0,1.0),randint(0.0,1.0))
+    forward(n)
+    right(45)
+    forward((2*(n/2)**2)**0.5)
+    right(90)
+    forward((2*(n/2)**2)**0.5)
+    right(135)
+    forward(n)
+    left(135)
+    forward((2*n**2)**0.5)
+    right(135)
+    forward(n)
+    right(135)
+    forward((2*n**2)**0.5)
+    right(135)
+    forward(n)
+    setheading(0)
+    penup()
+    goto(randint(-250,250),randint(-250,250))
+for i in range(42):
+    HVN()
