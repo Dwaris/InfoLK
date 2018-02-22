@@ -1,0 +1,3 @@
+zahl = randint(1, 49)
+while (zahl in ziehung):
+    zahl = randint(1, 49)
