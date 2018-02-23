@@ -1,4 +1,4 @@
 def hallo():
     return "hallo"
 
-print(hallo())
+print(hallo(),"asd")
