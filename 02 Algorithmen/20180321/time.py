@@ -1,10 +1,12 @@
 from time import *
 from random import randint
+from sys import *
 import sort
 
+setrecursionlimit(100000)
 # Initialisierung der Anzahl der Listenelemente
-anzahl = 1000
-while anzahl <= 10000:
+anzahl = 10000
+while anzahl <= 100001:
     # Erzeugung der Liste
     L = []
     for i in range(anzahl):
