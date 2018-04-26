@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<Überweisung name="Schnittchenbank" blz="42234242">
+<Begünstigter vorname="Dennis" name="Brammen" kontonummer="4242424242" blz="98765432"></Begünstigter>    
+<Geldbetrag wert="600000"></Geldbetrag>
+<Überweisender name=""></Überweisender>
+</Überweisung>

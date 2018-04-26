@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC 
+    "-//W3C//DTD SVG 1.1//EN" 
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240">
+<rect x="0" y="0" width="240" height="240" fill="lightcoral"></rect> 
+<polygon
+    points="160 10 20 100 60 170 110 160 150 220 200 230 210 180 190 110 160 120 150 100 170 60" 
+    fill="fuchsia"></polygon>
+<polygon points="110 50 100 70 130 70 140 50" fill="black"></polygon>
+<polygon points="160 190 150 210 180 210 190 190" fill="black"></polygon>
+<polygon points="120 120 100 130 120 140 140 130" fill="white"></polygon>
+<rect x="100" y="90" width="40" height="20" fill="green" stroke="none"></rect>
+<rect x="150" y="160" width="40" height="20" fill="green" stroke="none"></rect>
+<line x1="120" y1="70" x2="120" y2="90" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="120" y1="110" x2="120" y2="120" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="100" y1="130" x2="78" y2="130" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="80" y1="130" x2="80" y2="80" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="78" y1="80" x2="120" y2="80" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="120" y1="140" x2="120" y2="150" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="118" y1="150" x2="172" y2="150" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="170" y1="150" x2="170" y2="160" stroke="lawngreen" stroke-width="4px"></line> 
+<line x1="170" y1="180" x2="170" y2="190" stroke="lawngreen" stroke-width="4px"></line> 
+</svg>
