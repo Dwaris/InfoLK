@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<Ãœberweisung name="Schnittchenbank" blz="42234242">
-<BegÃ¼nstigter vorname="Dennis" name="Brammen" kontonummer="4242424242" blz="98765432"></BegÃ¼nstigter>    
+<Überweisung name="Schnittchenbank" blz="42234242">
+<Begünstigter vorname="Dennis" name="Brammen" kontonummer="4242424242" blz="98765432"></Begünstigter>    
 <Geldbetrag wert="600000"></Geldbetrag>
-<Ãœberweisender name=""></Ãœberweisender>
-</Ãœberweisung>
+<Überweisender vorname="Peter"  name="Smith" mitgliedsnummer="???" plz="66955" straße="" kontonummer="2323232323"></Überweisender>
+</Überweisung>
