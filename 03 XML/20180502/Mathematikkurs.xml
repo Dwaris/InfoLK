@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Kurs SYSTEM "kurs.dtd">
+<Kurs>
+  <!-- Organisation -->
+  <Fach>Mathematik</Fach>
+  <Typ>Leistungskurs</Typ>
+  <Stufe>11</Stufe>
+  <Bezeichner>11-MA-1</Bezeichner>
+  <Unterricht>
+    <Einheit>
+      <Tag>Montag</Tag>
+	  <Stunde>3</Stunde>
+	  <Raum>M15</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Montag</Tag>
+	  <Stunde>4</Stunde>
+	  <Raum>M15</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Mittwoch</Tag>
+	  <Stunde>5</Stunde>
+      <Raum>M15</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Donnerstag</Tag>
+	  <Stunde>7</Stunde>
+      <Raum>M15</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Freitag</Tag>
+	  <Stunde>1</Stunde>
+      <Raum>M15</Raum>
+    </Einheit>
+  </Unterricht>
+  <!-- Personen -->
+  <Lehrer kürzel="SW" geschlecht="w">
+    <Name>Schwarz</Name>
+	<Vorname>Michaela</Vorname>
+  </Lehrer>
+  <Schüler geschlecht="m">
+    <Name>Beyer</Name>
+	<Vorname>Alexander</Vorname>
+  </Schüler>
+  <Schüler geschlecht="w">
+    <Name>Baum</Name>
+	<Vorname>Nina</Vorname>
+  </Schüler>
+  <Schüler geschlecht="w">
+    <Name>Müller</Name>
+	<Vorname>Katrin</Vorname>
+  </Schüler>
+  <Schüler geschlecht="m">
+    <Name>Dinc</Name>
+	<Vorname>Yunus</Vorname>
+  </Schüler>
+  <!-- ... -->
+</Kurs>

@@ -1,0 +1,22 @@
+<!ELEMENT Kurs (Fach, Typ, Stufe, Bezeichner, Unterricht, Lehrer, Schüler*)>
+<!ELEMENT Fach (#PCDATA)>
+<!ELEMENT Typ (#PCDATA)>
+<!ELEMENT Stufe (#PCDATA)>
+<!ELEMENT Bezeichner (#PCDATA)>
+<!ELEMENT Unterricht (Einheit+)>
+<!ELEMENT Einheit (Tag, Stunde, Raum?)>
+<!ELEMENT Tag (#PCDATA)>
+<!ELEMENT Stunde (#PCDATA)>
+<!ELEMENT Raum (#PCDATA)>
+<!ELEMENT Lehrer (Name, Vorname)>
+<!ATTLIST Lehrer
+  kürzel CDATA #REQUIRED
+  geschlecht CDATA #REQUIRED
+> 
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Schüler (Name, Vorname, Kurssprecher?)>
+<!ATTLIST Schüler
+  geschlecht CDATA #REQUIRED
+>
+<!ELEMENT Kurssprecher EMPTY>

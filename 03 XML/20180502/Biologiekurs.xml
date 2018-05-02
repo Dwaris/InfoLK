@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Kurs SYSTEM "kurs.dtd">
+<Kurs>
+  <!-- Organisation -->
+  <Fach>Biologie</Fach>
+  <Typ>Grundkurs</Typ>
+  <Stufe>11</Stufe>
+  <Bezeichner>11-bi-2</Bezeichner>
+  <Unterricht>
+      <Einheit>
+        <Tag>Montag</Tag>
+        <Stunde>1</Stunde>
+      </Einheit>
+      <Einheit>
+        <Tag>Montag</Tag>
+        <Stunde>2</Stunde>
+      </Einheit>
+      <Einheit>
+	    <Tag>Donnerstag</Tag>
+        <Stunde>6</Stunde>
+      </Einheit>
+  </Unterricht>
+  <!-- Personen -->
+  <Lehrer kürzel="HO" geschlecht="w">
+    <Name>Hoffmann</Name>
+	<Vorname>Christine</Vorname>
+  </Lehrer>
+  <Schüler geschlecht="m">
+    <Name>Beyer</Name>
+	<Vorname>Alexander</Vorname>
+  </Schüler>
+  <Schüler geschlecht="w">
+    <Name>Baum</Name>
+	<Vorname>Nina</Vorname>
+  </Schüler>
+  <Schüler geschlecht="m">
+    <Name>Müller</Name>
+	<Vorname>Katrin</Vorname>
+  </Schüler>
+  <Schüler geschlecht="m">
+    <Name>Dinc</Name>
+	<Vorname>Yunus</Vorname>
+  </Schüler>
+  <!-- ... -->
+</Kurs>

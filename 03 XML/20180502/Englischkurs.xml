@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Kurs SYSTEM "kurs.dtd">
+<Kurs>
+  <!-- Organisation -->
+  <Fach>Englisch</Fach>
+  <Typ>Grundkurs</Typ>
+  <Stufe>11</Stufe>
+  <Bezeichner>11-en-3</Bezeichner>
+  <Unterricht>
+    <Einheit>
+      <Tag>Montag</Tag>
+	  <Stunde>5</Stunde>
+	  <Raum>A30</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Montag</Tag>
+	  <Stunde>5</Stunde>
+	  <Raum>A23</Raum>
+    </Einheit>
+    <Einheit>
+      <Tag>Donnerstag</Tag>
+	  <Stunde>2</Stunde>
+      <Raum>A23</Raum>
+    </Einheit>
+  </Unterricht>
+  <!-- Personen -->
+  <Lehrer kürzel="SW" geschlecht="w">
+    <Name>Bender</Name>
+	<Vorname>Michael</Vorname>
+  </Lehrer>
+  <Schüler geschlecht="m">
+    <Name>Beyer</Name>
+	<Vorname>Alexander</Vorname>
+  </Schüler>
+  <Schüler geschlecht="w">
+    <Name>Baum</Name>
+	<Vorname>Nina</Vorname>
+  </Schüler>
+  <Schüler geschlecht="w">
+    <Name>Müller</Name>
+	<Vorname>Katrin</Vorname>
+  </Schüler>
+  <Schüler geschlecht="m">
+    <Name>Dinc</Name>
+	<Vorname>Yunus</Vorname>
+  </Schüler>
+  <!-- ... -->
+</Kurs>
