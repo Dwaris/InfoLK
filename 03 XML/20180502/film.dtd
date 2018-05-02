@@ -9,6 +9,6 @@
 <!ELEMENT Regisseur (Vorname, Name)>
 <!ELEMENT Vorname (#PCDATA)>
 <!ELEMENT Name (#PCDATA)>
-<!ELEMENT Darstellung (Figur, Darsteller)>
+<!ELEMENT Darstellung (Figur, Darsteller)*>
 <!ELEMENT Figur (#PCDATA)>
 <!ELEMENT Darsteller (Vorname, Name)>
