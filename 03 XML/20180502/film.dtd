@@ -1,0 +1,14 @@
+<!ELEMENT Film (Titel, Erscheinungsjahr, Laenge, FSK, Regie, Darstellung)>
+<!ELEMENT Titel (#PCDATA)>
+<!ELEMENT Erscheinungsjahr (#PCDATA)>
+<!ELEMENT Laenge (#PCDATA)>
+<!ATTLIST Laenge
+  einheit CDATA #REQUIRED>
+<!ELEMENT FSK (#PCDATA)>
+<!ELEMENT Regie (Regisseur)>
+<!ELEMENT Regisseur (Vorname, Name)>
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Darstellung (Figur, Darsteller)>
+<!ELEMENT Figur (#PCDATA)>
+<!ELEMENT Darsteller (Vorname, Name)>

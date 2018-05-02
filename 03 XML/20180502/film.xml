@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Film SYSTEM "film.dtd">
+<Film>
+  <!-- Rahmendaten -->
+  <Titel>Titanic</Titel>
+  <Erscheinungsjahr>1997</Erscheinungsjahr>
+  <Laenge einheit="Minuten">194</Laenge>
+  <FSK>12</FSK>
+  <Regie>
+    <Regisseur>
+      <Vorname>James</Vorname>
+      <Name>Cameron</Name>
+    </Regisseur>
+  </Regie>
+  <!-- Darstellung der Figuren -->
+  <Darstellung>
+    <Figur>Jack Dawson</Figur>
+    <Darsteller>
+      <Vorname>Leonardo</Vorname>
+      <Name>DiCaprio</Name>
+    </Darsteller>
+  </Darstellung>
+  <Darstellung>
+    <Figur>Rose DeWitt Bukater</Figur>
+    <Darsteller>
+      <Vorname>Kate</Vorname>
+      <Name>Winslet</Name>
+    </Darsteller>
+  </Darstellung>
+  <!-- ... -->
+</Film>
