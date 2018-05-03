@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Schach-Spielzustand SYSTEM "schach.dtd">
+<Schach-Spielzustand>
+  <schwarz>
+    <Bauer>b7</Bauer>
+    <Bauer>e7</Bauer>
+    <Bauer>d6</Bauer>
+    <Bauer>b5</Bauer>
+    <Bauer>f4</Bauer>
+    <Springer>c6</Springer>
+    <Laeufer>e5</Laeufer>
+    <Dame>c4</Dame>
+    <Koenig>d7</Koenig>
+  </schwarz>
+  <weiss>
+    <Bauer>h5</Bauer>
+    <Bauer>f2</Bauer>
+    <Bauer>g2</Bauer>
+    <Turm>f1</Turm>
+    <Laeufer>f5</Laeufer>
+    <Dame>f7</Dame>
+    <Koenig>g1</Koenig>
+    <amZug/>
+  </weiss>
+</Schach-Spielzustand>

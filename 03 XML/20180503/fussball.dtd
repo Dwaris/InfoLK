@@ -1,0 +1,30 @@
+<!ELEMENT Fussbalspiel (Heim, Gast, Anstoss,
+Ergebnis,Schiedsrichter,Spielverlauf-Tore)>
+
+<!ELEMENT Heim (#PCDATA)>
+<!ELEMENT Gast (#PCDATA)>
+<!ELEMENT Anstoss (Tag, Monat, Jahr, Uhrzeit)>
+<!ELEMENT Tag (#PCDATA)>
+<!ELEMENT Monat (#PCDATA)>
+<!ELEMENT Jahr (#PCDATA)>
+<!ELEMENT Uhrzeit (#PCDATA)>
+<!ELEMENT Ergebnis (ToreHeim, ToreGast)>
+<!ELEMENT ToreHeim (#PCDATA)>
+<!ELEMENT ToreGast (#PCDATA)>
+
+<!ELEMENT Schiedsrichter(Vorname, Name)>
+<!ATTLIST Schiedsrichter
+  kurz CDATA #REQUIRED
+>
+
+<!ELEMENT Vorname (#PCDATA)>
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Spielverlauf-Tore ((TorGast | TorHeim)* )>
+
+<!ELEMENT TorGast (Spielminute, Spieler, Eigentor?)>
+<!ELEMENT TorHeim (Spielminute, Spieler, Eigentor?)>
+
+<!ELEMENT Spielminute (#PCDATA)>
+<!ELEMENT Spieler (#PCDATA)>
+<!ELEMENT Eigentor EMPTY>

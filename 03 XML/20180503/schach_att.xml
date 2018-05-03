@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE Schach-Spielzustand SYSTEM "schach_att.dtd">
+<Schach-Spielzustand>
+  <schwarz amZug="nein">
+    <Bauer Spalte="b" Zeile="7"/>
+    <Bauer Spalte="e" Zeile="7"/>
+    <Bauer Spalte="d" Zeile="6"/>
+    <Bauer Spalte="b" Zeile="5"/>
+    <Bauer Spalte="f" Zeile="4"/>
+    <Springer Spalte="c" Zeile="6"/>
+    <Laeufer Spalte="e" Zeile="5"/>
+    <Dame Spalte="c" Zeile="4"/>
+    <Koenig Spalte="d" Zeile="7"/>
+  </schwarz>
+  <weiss amZug="ja">
+    <Bauer Spalte="h" Zeile="5"/>
+    <Bauer Spalte="f" Zeile="2"/>
+    <Bauer Spalte="g" Zeile="2"/>
+    <Turm Spalte="f" Zeile="1"/>
+    <Laeufer Spalte="f" Zeile="5"/>
+    <Dame Spalte="f" Zeile="7"/>
+    <Koenig Spalte="g" Zeile="1"/>
+  </weiss>
+</Schach-Spielzustand>

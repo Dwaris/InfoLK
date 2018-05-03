@@ -1,0 +1,31 @@
+<!ELEMENT Schach-Spielzustand (schwarz|weiss)*>
+<!ELEMENT schwarz (Bauer|Springer|Laeufer|Dame|Koenig)*>
+<!ATTLIST schwarz
+    amZug CDATA #REQUIRED>
+<!ELEMENT Bauer (#PCDATA)>
+<!ATTLIST Bauer
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
+<!ELEMENT Springer (#PCDATA)>
+<!ATTLIST Springer
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
+<!ELEMENT Laeufer (#PCDATA)>
+<!ATTLIST Laeufer
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
+<!ELEMENT Dame (#PCDATA)>
+<!ATTLIST Dame
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
+<!ELEMENT Koenig (#PCDATA)>
+<!ATTLIST Koenig
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
+<!ELEMENT weiss (Bauer|Turm|Laeufer|Dame|Koenig)*>
+<!ATTLIST weiss
+    amZug CDATA #REQUIRED>
+<!ELEMENT Turm (#PCDATA)>
+<!ATTLIST Turm
+    Spalte CDATA #REQUIRED
+    Zeile CDATA #REQUIRED>
