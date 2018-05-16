@@ -1,0 +1,14 @@
+<!ELEMENT Musikliste (Medium*)>
+
+<!ELEMENT Medium (Titel,Interpret*,Jahr?,Laufzeit?,(BluRay|MP3)?)>
+<!ATTLIST Medium
+  nummer CDATA   #REQUIRED
+  typ   (CD|DVD) #IMPLIED
+>
+
+<!ELEMENT Titel (#PCDATA)>
+<!ELEMENT Interpret (#PCDATA)>
+<!ELEMENT Jahr (#PCDATA)>
+<!ELEMENT Laufzeit (#PCDATA)>
+<!ELEMENT BluRay EMPTY>
+<!ELEMENT MP3 EMPTY>
