@@ -21,13 +21,29 @@ def Interpreten(doc):
     for k in kMedium:
         kInterpret = k.getElementsByTagName("Interpret")
         for i in kInterpret:
+            print(i)
             if i.firstChild.nodeValue == Interpret:
-                print(k.getElementsByTagName("Titel")[0].firstChild.nodeValue)
+                return(k.getElementsByTagName("Titel")[0].firstChild.nodeValue)
+print(Interpreten(doc))
 
 def unterschiedliche_Interpreten(doc):
+    ergebnis = []
+    k = doc
+    kMedium = k.getElementsByTagName("Medium")
+    for k in kMedium:
+        kInterpret = k.getElementsByTagName("Interpret")
+        for i in kInterpret:
+            ergebnis = ergebnis + [i.firstChild.nodeValue]
+    return set(ergebnis)
+print(unterschiedliche_Interpreten(doc))
 
-
-
-            #print(k.firstChild.nodeValue)
-
-print(Interpreten(doc))
+def laufzeit(doc):
+    ergebnis = []
+    typ = "CD"
+    k = doc
+    kMedium = k.getElementsByTagName("Medium")
+    for k in kMedium:
+       if k.getAttribute("typ") == typ:
+            ergebnis += [k.getElementsByTagName("Laufzeit")[0].firstChild.nodeValue]
+       return ergebnis
+print(laufzeit(doc))
