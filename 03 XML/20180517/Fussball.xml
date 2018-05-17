@@ -1,0 +1,43 @@
+<Fußballspiel>
+  <!-- Rahmendaten -->
+  <Heim>1. FC Kaiserslautern</Heim>
+  <Gast>1. FSV Mainz 05</Gast>
+  <Anstoß>
+    <Tag>17</Tag>
+    <Monat>9</Monat>
+    <Jahr>2011</Jahr>
+    <Uhrzeit>15:30</Uhrzeit>
+  </Anstoß>
+  <Ergebnis>
+    <ToreHeim>3</ToreHeim>
+    <ToreGast>1</ToreGast>
+  </Ergebnis>
+  <Schiedsrichter kurz="WoSt">
+    <Vorname>Wolfgang</Vorname>
+    <Name>Stark</Name>
+  </Schiedsrichter>
+  <!-- Aufstellungen -->
+  <!-- Einwechslungen -->
+  <!-- Spielverlauf/Tore -->
+  <Spielverlauf-Tore>
+    <TorGast>
+      <Spielminute>15</Spielminute>
+      <Spieler>Choupo-Moting</Spieler>
+    </TorGast>
+    <TorHeim>
+      <Spielminute>24</Spielminute>
+      <Spieler>Svensson</Spieler>
+	  <Eigentor/>
+    </TorHeim>
+    <TorHeim>
+      <Spielminute>54</Spielminute>
+      <Spieler>Shechter</Spieler>
+    </TorHeim>
+    <TorHeim>
+      <Spielminute>73</Spielminute>
+      <Spieler>Tiffert</Spieler>
+	  <Eigentor/>
+    </TorHeim>
+  </Spielverlauf-Tore>
+  <!-- Spielverlauf/Karten -->
+</Fußballspiel>
