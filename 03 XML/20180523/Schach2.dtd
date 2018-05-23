@@ -1,0 +1,40 @@
+<!ELEMENT Schach-Spielzustand (schwarz,weiss)>
+<!ELEMENT schwarz (Bauer*,Springer*,Turm*,Laeufer*,Dame?,Koenig)>
+<!ATTLIST schwarz
+  amZug (ja|nein) #REQUIRED
+>
+<!ELEMENT weiss (Bauer*,Springer*,Turm*,Laeufer*,Dame?,Koenig)>
+<!ATTLIST weiss
+  amZug (ja|nein) #REQUIRED
+>
+
+<!ELEMENT Bauer EMPTY>
+<!ATTLIST Bauer
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
+<!ELEMENT Springer EMPTY>
+<!ATTLIST Springer
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
+<!ELEMENT Laeufer EMPTY>
+<!ATTLIST Laeufer
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
+<!ELEMENT Turm EMPTY>
+<!ATTLIST Turm
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
+<!ELEMENT Dame EMPTY>
+<!ATTLIST Dame
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
+<!ELEMENT Koenig EMPTY>
+<!ATTLIST Koenig
+  Spalte (a|b|c|d|e|f|g|h) #REQUIRED
+  Zeile  (1|2|3|4|5|6|7|8) #REQUIRED
+>
