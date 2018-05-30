@@ -1,0 +1,21 @@
+<!ELEMENT Philosophie (Philosoph*)>
+
+<!ELEMENT Philosoph (Name, Geboren, Gestorben?, (Maennlich | Weiblich), Thema+)>
+
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Geboren (#PCDATA)>
+<!ATTLIST Geboren
+    exakt (ja|nein) #REQUIRED
+>
+
+<!ELEMENT Gestorben (#PCDATA)>
+<!ATTLIST Geboren
+    exakt (ja|nein) #REQUIRED
+>
+
+<!ELEMENT Maennlich EMPTY>
+<!ELEMENT Weiblich EMPTY>
+
+<!ELEMENT Thema (#PCDATA)>
+
