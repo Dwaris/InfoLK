@@ -1,2 +1,2 @@
 # InfoLK
-Informatikordner INF 
+Ordner INF 
